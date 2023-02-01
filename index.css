@@ -1,0 +1,22 @@
+@import url("style/header.css");
+@import url("style/hero.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #050404;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 60px 130px;
+}
