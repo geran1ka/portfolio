@@ -13,16 +13,15 @@
 .header__item {
   display: inline-block;
   margin-right: 36px;
-  font-size: 22px;
-  font-family: "Roboto";
-  color: rgb(255, 255, 255);
   text-transform: uppercase;
   text-align: left;
 }
 
 .header__link {
   text-decoration: none;
-  color: #dddddd;
+  font-size: 22px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
 }
 
 .header__link-active {
