@@ -10,7 +10,7 @@
 <body>
 
   <header class="header">
-    <div class="container">
+    <div class="container header__container">
       <img class="header__logo" src="image/logo_1.png" alt=""> 
       
       <nav class="header__nav">
@@ -33,7 +33,11 @@
         </ul>
       </nav>
 
-      <input class="header__search" type="search" name="search" placeholder="search">
+      <form class="header__form" action="#">
+        <input class="header__form-search" type="text" placeholder="search">
+        <button class="header__form-submit" type="submit"></button>
+      </form>
+      
     </div>
   </header>
 

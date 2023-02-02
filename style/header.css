@@ -1,13 +1,20 @@
 .header {
+  margin-top: 60px;
   margin-bottom: 80px;
 }
 
+.header__container {
+  text-align: center;
+}
+
 .header__logo {
-  max-height: 50px;
+  display: inline-block; 
+  vertical-align: bottom;
+  margin-right: 112px;
+  height: 48px;
 }
 .header__nav {
   display: inline-block;
-  margin-left: 112px;
 }
 
 .header__item {
@@ -27,22 +34,42 @@
 .header__link-active {
   color: #ffb822;
 }
-
-.header__search {
-  float: right;
-  padding-left: 16px;
-  padding-right: 12px;
+.header__form {
+  display: inline-block;
+  position: relative;
   width: 274px;
-  height: 50px;
+  margin-left: 70px;
+
+}
+
+.header__form-search {
+  width: 100%;
+  height: 46px;
+  padding-left: 15px;
   font-size: 22px;
   font-family: "Roboto";
   color: rgb(204, 204, 204);
   text-transform: uppercase;
-  line-height: 1;
-  text-align: left;
   border: 3px solid #9965e3;
   border-radius: 10px;
+}
+
+.header__form-submit {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: none;
+  outline: none;
+  float: right;
+}
+
+.header__form-submit::after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 6px;
+  width: 32px;
+  height: 32px;
   background-image: url("../image/search.svg");
   background-repeat: no-repeat;
-  background-position: 220px 8px;
-}
+} 
